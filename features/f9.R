@@ -1,7 +1,7 @@
 #!/usr/bin/Rscript
 
 ###URL simple feautures: times of URL's clicks###
-###To get population: url_ft2.val
+###To get population: f9.val
 
 ###Some settings
 options(max.print=20)
@@ -25,6 +25,6 @@ extractFeature <- function(name,f.name) {
 }
 
 ###Choose standard feature and table name, please
-extractFeature(name ="url_ft2",f.name="val")
+extractFeature(name ="f9",f.name="val")
 
 
