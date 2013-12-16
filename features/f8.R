@@ -1,7 +1,7 @@
 #!/usr/bin/Rscript
 
 ###URL simple feautures: URL's domain popularity ###
-###To get population: url_ft1.val
+###To get population: f8.val
 
 ###Some settings
 options(max.print=20)
@@ -25,6 +25,6 @@ extractFeature <- function(name,f.name) {
 }
 
 ###Choose standard feature and table name, please
-extractFeature(name ="url_ft2",f.name="val")
+extractFeature(name ="f8",f.name="val")
 
 
